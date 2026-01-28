@@ -1,0 +1,8 @@
+# netlify.toml — for a Vite static site (dist output)
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
